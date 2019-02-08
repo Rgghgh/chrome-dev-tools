@@ -1,7 +1,8 @@
 Settings
 ========
-The settings dialog is available by pressing the cog icon in the top right corner of the dev tools or with the keyboard shortcut `?`
-![Audits](../basics/settings.png)
+The settings dialog is available by pressing the <b>Main Menu</b> icon in the top right corner of the dev tools and then `settings` or with the keyboard shortcut `?` or `f1`.
+
+![Settings](../basics/settings.png)
 
 [Full settings documentation](https://developers.google.com/chrome-developer-tools/docs/settings)
 
