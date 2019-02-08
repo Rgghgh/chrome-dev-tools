@@ -6,6 +6,7 @@ Styles
   * The toggle state button allows you to toggle CSS pseudo anchor state.
   * Clicking the source file name or `ctr` + `click` the property will load the associated source file.
   * Properties that are ~~crossed out~~ are either overriden or unknown to Chrome.
+  * You can edit style values by clicking them.
 
 <br/>
 <br/>
