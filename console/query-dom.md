@@ -4,8 +4,6 @@ The Console Utilities API contains a collection of convenience functions for per
 
 > **Warning: **These functions only work when you call them from the Chrome DevTools Console. They won't work if you try to call them in your scripts.
 
-
-
 #### $\_
 
 `$_`returns the value of the most recently evaluated expression.
@@ -18,20 +16,17 @@ The`$0`,`$1`,`$2`,`$3`and`$4`commands work as a historical reference to the last
 
 `$0`returns the most recently selected element or JavaScript object,`$1`returns the second most recently selected one, and so on.
 
-  
 ![](/elements/recent-inspected.png)
 
 ### $\(selector, \[startNode\]\)
 
 `$(selector)`returns the reference to the first DOM element with the specified CSS selector. This function is an alias for the [document.querySelector\(\)](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) function.
 
-![](/console/selector-img.png)  
-
+![](/console/selector-img.png)
 
 ### $$\(selector, \[startNode\]\)
 
-`$$(selector)`returns an array of elements that match the given CSS selector. This command is equivalent to calling [document.querySelectorAll\(\)](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll).  
-
+`$$(selector)`returns an array of elements that match the given CSS selector. This command is equivalent to calling [document.querySelectorAll\(\)](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll).
 
 ### copy\(object\)
 
@@ -39,12 +34,20 @@ The`$0`,`$1`,`$2`,`$3`and`$4`commands work as a historical reference to the last
 
 
 
+### dir\(object\)
 
+`dir(object)`displays an object-style listing of all the specified object's properties. This method is an alias for the Console API's`console.dir()`method.
 
+### inspect\(object/function\)
 
+`inspect(object/function)`opens and selects the specified element or object in the appropriate panel: either the Elements panel for DOM elements or the Profiles panel for JavaScript heap objects.
 
-  
-  
+The following example opens the`document.body`in the Elements panel:
+
+```js
+inspect(document.body);
+```
+
 
 
 
