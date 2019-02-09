@@ -50,3 +50,40 @@ inspect(document.body);
 
 `getEventListeners(object)`returns the event listeners registered on the specified object. The return value is an object that contains an array for each registered event type \(`click`or`keydown` , for example\).
 
+### keys\(object\)
+
+`keys(object)`returns an array containing the names of the properties belonging to the specified object. To get the associated values of the same properties, use`values()`.![](/console/keys-values.png)
+
+### monitor\(function\)
+
+When the function specified is called, a message is logged to the console that indicates the function name along with the arguments that are passed to the function when it was called.
+
+![](/console/monitor.png)  
+Use`unmonitor(function)`to cease monitoring.
+
+
+
+### monitorEvents\(object\[, events\]\)
+
+When one of the specified events occurs on the specified object, the Event object is logged to the console. You can specify a single event to monitor, an array of events, or one of the generic events "types" mapped to a predefined collection of events.
+
+![](/console/monitor-events %281%29.png)The following defines an array to monitor both "resize" and "scroll" events on the window object:
+
+```js
+monitorEvents(window, ["resize","scroll"])
+```
+
+`unmonitorEvents(object[, events])`stops monitoring events for the specified object and events.  
+  
+
+
+### table\(data\[, columns\]\)
+
+Log object data with table formatting by passing in a data object in with optional column headings. For example, to display a list of names using a table in the console.
+
+![](/console/table.png)
+
+
+
+
+
