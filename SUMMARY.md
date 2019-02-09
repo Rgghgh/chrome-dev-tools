@@ -36,9 +36,10 @@
   * [XHR Breakpoints](network/xhr-breakpoints.md)
   * [Copy Request Data](network/request-data.md)
 * [Timeline](timeline/README.md)
+* Application
 * [Profiles](profiles/README.md)
 * [Mobile](mobile/README.md)
   * [USB Debugging](mobile/usb-debugging.md)
 * [Extensions](extensions/README.md)
-* [Custom Skins](themes/README.md)
+* Application
 
