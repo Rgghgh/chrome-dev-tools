@@ -3,6 +3,18 @@ Console
 
 In addition to providing a convenient workspace for testing code, the console also provides a chrome specific API for inspecting and debugging applications. It is important to remember that the console is available from all other tabs by pressing the `Esc` key.
 
+#### Working with the Console history
+
+##### Clearing the history
+
+You can clear the console history by doing any of the following:
+
+* Right-click in the Console and press **Clear console**.
+* Type `clear()` in the Console.
+* Call `console.clear()` from within your JavaScript code.
+* Type `Ctrl+L` (Mac, Windows, Linux).
+* Click the "Clear console" button ![](/console/clear.png). 
+
 ![Audits](../console/console.png)
 1. Clear the console output
 2. Filter the console to display specific output
