@@ -47,6 +47,6 @@ The Console is available at from any tab by pressing the `escape` key.
 
 Explore more shortcuts:
 
-![Shortcuts](../basics/shortcuts.png)
+  ![Shortcuts](../basics/shortcuts.png)
 
-[More keyboard shortcuts](https://developers.google.com/chrome-developer-tools/docs/shortcuts)
+  [More keyboard shortcuts](https://developers.google.com/chrome-developer-tools/docs/shortcuts)
