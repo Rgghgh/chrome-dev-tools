@@ -12,7 +12,7 @@
   * [Event Listeners](elements/event-listeners.md)
   * [Computed Properties](elements/computed-properties.md)
 * [Console](console/README.md)
-  * [Query DOM](console/query-dom.md)
+  * [Console Utilities](console/query-dom.md)
   * [Monitor Events](console/monitor-events.md)
   * [Commands](console/commands.md)
 * [Network](network/README.md)
