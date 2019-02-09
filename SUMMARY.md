@@ -42,4 +42,5 @@
   * [USB Debugging](mobile/usb-debugging.md)
 * [Extensions](extensions/README.md)
 * Application
+* Security
 
