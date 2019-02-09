@@ -15,12 +15,35 @@ You can clear the console history by doing any of the following:
 * Type `Ctrl+L` (Mac, Windows, Linux).
 * Click the "Clear console" button ![](/console/clear.png). 
 
-![Audits](../console/console.png)
-1. Clear the console output
-2. Filter the console to display specific output
-3. Change the console input to be executed with the context of a specific frame (frame, iframe, or extension).
-4. Enter multi-line code with `shift` + `enter`
-5. The shortcut `ctrl` + `L` clears the console
+##### Persisting the history
+Enable the **Preserve log** checkbox at the top of the console to persist the console history between page refreshes or changes. Messages will be stored until you clear the Console or close the tab.
+
+##### Saving the history
+
+Right-click in the Console and select Save as to save the output of the console to a log file.
+
+![Audits](../console/console-save-as.png)
+
+
+#### Selecting execution context
+
+The dropdown menu highlighted in blue in the screenshot below is called the **Execution Context Selector**.
+
+![](/console/execution-context-selector.png)
+
+The Console defaults to the `top` context, unless you access DevTools by inspecting an element within another context. For example, if you inspect a `<p>` element within an `<iframe>`, then DevTools sets the Execution Context Selector to the context of that `<iframe>`.
+
+#### Filtering the Console output
+
+Click the **Filter** button (![](/console/filter-button.png)) to filter console output. You can filter by severity level, by a regular expression, or by hiding network messages.
+
+![](/console/filtered-console.png)
+
+#### Additional settings
+
+Open the DevTools settings, go to the **General **tab, and scroll down to the **Console **section for further Console settings.
+
+![](/console/console-settings.png)
 
 ####Exercise‎
 Load the console and notice at the top frame the global variable `iFrameApp` is not defined. Switch the frame to iframe.html and it is defined.
