@@ -2,8 +2,8 @@
 
 The console provides the following useful commands:
 
-* `assert` - A simple assertion API to verify functionality
-* `time` and `timeEnd` - Measure how long something takes
+* `console.assert` - A simple assertion API to verify functionality
+* `console.time` and `timeEnd` - Measure how long something takes
 * `timeStamp` - Programatically mark the timeline.
 * `debugger` - Force the debugger to break
 * `profile` and `profileEnd` - Programatically start and stop a CPU profile
