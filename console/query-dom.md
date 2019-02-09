@@ -32,8 +32,6 @@ The`$0`,`$1`,`$2`,`$3`and`$4`commands work as a historical reference to the last
 
 `copy(object)`copies a string representation of the specified object to the clipboard.
 
-
-
 ### dir\(object\)
 
 `dir(object)`displays an object-style listing of all the specified object's properties. This method is an alias for the Console API's`console.dir()`method.
@@ -48,7 +46,7 @@ The following example opens the`document.body`in the Elements panel:
 inspect(document.body);
 ```
 
+### getEventListeners\(object\)
 
-
-
+`getEventListeners(object)`returns the event listeners registered on the specified object. The return value is an object that contains an array for each registered event type \(`click`or`keydown` , for example\).
 
